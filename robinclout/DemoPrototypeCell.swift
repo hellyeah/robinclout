@@ -9,8 +9,8 @@ import UIKit
 
 class DemoPrototypeCell: UITableViewCell {
 
-    @IBOutlet weak var myLabel: UILabel!
-    @IBOutlet weak var subLabel: UILabel!
+    @IBOutlet weak var cityLabel: UILabel!
+    @IBOutlet weak var stateLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
