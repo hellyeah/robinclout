@@ -11,6 +11,9 @@ class ViewController: UIViewController, UITableViewDataSource {
 
     @IBOutlet weak var tableView: UITableView!
     
+    let CellIdentifier = "com.robinclout.DemoPrototypeCell"
+
+    
     let data = ["New York, NY", "Los Angeles, CA", "Chicago, IL", "Houston, TX",
         "Philadelphia, PA", "Phoenix, AZ", "San Diego, CA", "San Antonio, TX",
         "Dallas, TX", "Detroit, MI", "San Jose, CA", "Indianapolis, IN",
@@ -21,12 +24,16 @@ class ViewController: UIViewController, UITableViewDataSource {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         tableView.dataSource = self
+        tableView.register(UITableViewCell.self, forCellReuseIdentifier: CellIdentifier)
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-       let cell = UITableViewCell(style: .default, reuseIdentifier: nil)
-       cell.textLabel?.text = data[indexPath.row]
-       return cell
+        // If there are no cells available for reuse, it will always return a cell so long as the identifier has previously been registered
+        let cell = tableView.dequeueReusableCell(withIdentifier: CellIdentifier, for: indexPath) as! DemoPrototypeCell
+        let cityState = data[indexPath.row].components(separatedBy: ", ")
+        cell.myLabel?.text = cityState.first
+        //cell.subLabel?.text
+        return cell
    }
    
    
