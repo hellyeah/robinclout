@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F1526802620DEDC00E4B453 /* LudoBitClout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F15267C2620DEA700E4B453 /* LudoBitClout.framework */; };
+		9F1526812620DEDC00E4B453 /* LudoBitClout.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F15267C2620DEA700E4B453 /* LudoBitClout.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9F9808A226209A2300269A6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9808A126209A2300269A6B /* AppDelegate.swift */; };
 		9F9808A426209A2300269A6B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9808A326209A2300269A6B /* SceneDelegate.swift */; };
 		9F9808A626209A2300269A6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9808A526209A2300269A6B /* ViewController.swift */; };
@@ -16,7 +18,32 @@
 		9F9808BA2620B72F00269A6B /* DemoPrototypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9808B92620B72F00269A6B /* DemoPrototypeCell.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		9F15267B2620DEA700E4B453 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F1526772620DEA700E4B453 /* LudoBitClout.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9F15266B2620D9A500E4B453;
+			remoteInfo = LudoBitClout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9F1526822620DEDC00E4B453 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9F1526812620DEDC00E4B453 /* LudoBitClout.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		9F1526772620DEA700E4B453 /* LudoBitClout.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LudoBitClout.xcodeproj; path = Frameworks/Internal/BitClout/LudoBitClout.xcodeproj; sourceTree = "<group>"; };
 		9F98089E26209A2300269A6B /* robinclout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = robinclout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F9808A126209A2300269A6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F9808A326209A2300269A6B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -33,17 +60,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F1526802620DEDC00E4B453 /* LudoBitClout.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F1526782620DEA700E4B453 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F15267C2620DEA700E4B453 /* LudoBitClout.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F15267F2620DEDC00E4B453 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9F98089526209A2300269A6B = {
 			isa = PBXGroup;
 			children = (
+				9F1526772620DEA700E4B453 /* LudoBitClout.xcodeproj */,
 				9F9808A026209A2300269A6B /* robinclout */,
 				9F98089F26209A2300269A6B /* Products */,
+				9F15267F2620DEDC00E4B453 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,6 +125,7 @@
 				9F98089A26209A2300269A6B /* Sources */,
 				9F98089B26209A2300269A6B /* Frameworks */,
 				9F98089C26209A2300269A6B /* Resources */,
+				9F1526822620DEDC00E4B453 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -115,12 +161,28 @@
 			mainGroup = 9F98089526209A2300269A6B;
 			productRefGroup = 9F98089F26209A2300269A6B /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 9F1526782620DEA700E4B453 /* Products */;
+					ProjectRef = 9F1526772620DEA700E4B453 /* LudoBitClout.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				9F98089D26209A2300269A6B /* robinclout */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		9F15267C2620DEA700E4B453 /* LudoBitClout.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = LudoBitClout.framework;
+			remoteRef = 9F15267B2620DEA700E4B453 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		9F98089C26209A2300269A6B /* Resources */ = {
