@@ -1,0 +1,3 @@
+[submodule "BitClout"]
+	path = BitClout
+	url = https://github.com/lludo/BitClout.git
