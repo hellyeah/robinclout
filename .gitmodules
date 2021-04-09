@@ -1,0 +1,3 @@
+[submodule "Frameworks/Internal/BitClout"]
+	path = Frameworks/Internal/BitClout
+	url = ../LudoBitClout
