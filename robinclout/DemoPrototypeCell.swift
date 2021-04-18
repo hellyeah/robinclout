@@ -11,6 +11,7 @@ class DemoPrototypeCell: UITableViewCell {
 
     @IBOutlet weak var cityLabel: UILabel!
     @IBOutlet weak var stateLabel: UILabel!
+    @IBOutlet weak var gainLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

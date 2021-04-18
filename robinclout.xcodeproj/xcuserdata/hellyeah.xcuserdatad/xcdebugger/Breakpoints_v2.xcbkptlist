@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "BCDA82FA-1D62-4B22-8F87-6877753BF872"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "69BB9D66-7A2F-4F9F-BB6A-E2549CB6F124"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "robinclout/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "69BB9D66-7A2F-4F9F-BB6A-E2549CB6F124 - 3b311f16c1223e63"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "robinclout.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "robinclout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hellyeah/Dropbox/robinclout/robinclout/robinclout/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "740">
+               </Location>
+               <Location
+                  uuid = "69BB9D66-7A2F-4F9F-BB6A-E2549CB6F124 - 97d7a266bb24de9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Error&gt;) -&gt; () in robinclout.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "robinclout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hellyeah/Dropbox/robinclout/robinclout/robinclout/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D1630C31-4013-4692-95FE-A38CA69B00C7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "robinclout/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3218F78A-ED83-4255-9DAC-D5106E31B331"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../My Mac (MacBook-Pro.local)/Downloads/BitClout-main 2/Shared/StorageClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "geFilenameForBlock(height:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "11157ABC-E5D4-4C33-B002-20E5C1E79AF5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../My Mac (MacBook-Pro.local)/Downloads/BitClout-main 2/Shared/StorageClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "geFilenameForBlock(height:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1F4B27E1-46A0-41AF-9264-6CC4429F26B2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../My Mac (MacBook-Pro.local)/Downloads/BitClout-main 2/Shared/StorageClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "geFilenameForBlock(height:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0BE1D76F-7377-4C4F-8F7A-B78A3B5A9B1C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../My Mac (MacBook-Pro.local)/Downloads/BitClout-main 2/Shared/QueryManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "fetchBlock(height:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AA2EA0D1-1D2C-4504-BC7C-D6EEFEF6D301"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../My Mac (MacBook-Pro.local)/Downloads/BitClout-main 2/Shared/QueryManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "fetchBlock(height:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AA2EA0D1-1D2C-4504-BC7C-D6EEFEF6D301 - 6f86fb45cd46464a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "robinclout.QueryManager.(fetchBlock in _B69713E0BEE9067CEFB82A63E4CB2B73)(height: Swift.Int, completion: (Swift.Result&lt;robinclout.Block, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "robinclout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hellyeah/Dropbox/My%20Mac%20(MacBook-Pro.local)/Downloads/BitClout-main%202/Shared/QueryManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "356">
+               </Location>
+               <Location
+                  uuid = "AA2EA0D1-1D2C-4504-BC7C-D6EEFEF6D301 - 6f86fb45cd46464a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "robinclout.QueryManager.(fetchBlock in _B69713E0BEE9067CEFB82A63E4CB2B73)(height: Swift.Int, completion: (Swift.Result&lt;robinclout.Block, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "robinclout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hellyeah/Dropbox/My%20Mac%20(MacBook-Pro.local)/Downloads/BitClout-main%202/Shared/QueryManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "384">
+               </Location>
+               <Location
+                  uuid = "AA2EA0D1-1D2C-4504-BC7C-D6EEFEF6D301 - 6f86fb45cd46464a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "robinclout.QueryManager.(fetchBlock in _B69713E0BEE9067CEFB82A63E4CB2B73)(height: Swift.Int, completion: (Swift.Result&lt;robinclout.Block, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "robinclout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hellyeah/Dropbox/My%20Mac%20(MacBook-Pro.local)/Downloads/BitClout-main%202/Shared/QueryManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "1780">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E15BB99C-70BC-4BC2-8983-83018BEE396D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../My Mac (MacBook-Pro.local)/Downloads/BitClout-main 2/Shared/QueryManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "fetchBlock(height:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B1579AB0-8E5D-45D5-BD15-4A0C627B844B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../My Mac (MacBook-Pro.local)/Downloads/BitClout-main 2/Shared/QueryManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "fetchBlock(height:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7AE07D77-094B-4012-92A1-ED957A3C7940"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../My Mac (MacBook-Pro.local)/Downloads/BitClout-main 2/Shared/QueryManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "fetchBlock(height:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F76DA76A-3BF9-471F-A8F6-72190782F12B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../My Mac (MacBook-Pro.local)/Downloads/BitClout-main 2/Shared/StorageClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "writeBlock(data:height:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "89AB9372-87C3-4AF4-BC3A-AE6F07FA6A21"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../My Mac (MacBook-Pro.local)/Downloads/BitClout-main 2/Shared/StorageClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "writeBlock(data:height:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "531C33C1-1146-4BDF-A763-D28AA257EA48"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../My Mac (MacBook-Pro.local)/Downloads/BitClout-main 2/Shared/StorageClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "writeBlock(data:height:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0956BF7C-05F0-4103-9BA9-D3DDDFBD9287"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../My Mac (MacBook-Pro.local)/Downloads/BitClout-main 2/Shared/StorageClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "writeBlock(data:height:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

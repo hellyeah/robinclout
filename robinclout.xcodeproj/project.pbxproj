@@ -3,12 +3,51 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9F1526802620DEDC00E4B453 /* LudoBitClout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F15267C2620DEA700E4B453 /* LudoBitClout.framework */; };
-		9F1526812620DEDC00E4B453 /* LudoBitClout.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F15267C2620DEA700E4B453 /* LudoBitClout.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9F2151DA262C6C8000DC5A88 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2151AC262C6C8000DC5A88 /* NetworkClient.swift */; };
+		9F2151DB262C6C8000DC5A88 /* StateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2151AD262C6C8000DC5A88 /* StateManager.swift */; };
+		9F2151DC262C6C8000DC5A88 /* QueryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2151AE262C6C8000DC5A88 /* QueryManager.swift */; };
+		9F2151DD262C6C8000DC5A88 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2151B0262C6C8000DC5A88 /* Account.swift */; };
+		9F2151DE262C6C8000DC5A88 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2151B1262C6C8000DC5A88 /* Tools.swift */; };
+		9F2151DF262C6C8000DC5A88 /* StorageClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2151B2262C6C8000DC5A88 /* StorageClient.swift */; };
+		9F2151E0262C6C8000DC5A88 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9F2151B3262C6C8000DC5A88 /* README.md */; };
+		9F2151E1262C6C8000DC5A88 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 9F2151B4262C6C8000DC5A88 /* LICENSE */; };
+		9F2151E2262C6C8000DC5A88 /* private-messages-transactions.mov in Resources */ = {isa = PBXBuildFile; fileRef = 9F2151B6262C6C8000DC5A88 /* private-messages-transactions.mov */; };
+		9F2151E3262C6C8000DC5A88 /* account_connections_universe_center_zoom.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F2151B7262C6C8000DC5A88 /* account_connections_universe_center_zoom.png */; };
+		9F2151E4262C6C8000DC5A88 /* bitcoinExchange_transactions_by_accounts.csv in Resources */ = {isa = PBXBuildFile; fileRef = 9F2151B8262C6C8000DC5A88 /* bitcoinExchange_transactions_by_accounts.csv */; };
+		9F2151E5262C6C8000DC5A88 /* account_connections_maybe_bot_cluster.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F2151B9262C6C8000DC5A88 /* account_connections_maybe_bot_cluster.png */; };
+		9F2151E6262C6C8000DC5A88 /* reserved-names-from-#0-to-#2500.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F2151BA262C6C8000DC5A88 /* reserved-names-from-#0-to-#2500.txt */; };
+		9F2151E7262C6C8000DC5A88 /* account_connections_edges.csv in Resources */ = {isa = PBXBuildFile; fileRef = 9F2151BB262C6C8000DC5A88 /* account_connections_edges.csv */; };
+		9F2151E8262C6C8000DC5A88 /* message_transactions_nodes.csv in Resources */ = {isa = PBXBuildFile; fileRef = 9F2151BC262C6C8000DC5A88 /* message_transactions_nodes.csv */; };
+		9F2151E9262C6C8000DC5A88 /* blockReward_transactions_by_accounts.csv in Resources */ = {isa = PBXBuildFile; fileRef = 9F2151BD262C6C8000DC5A88 /* blockReward_transactions_by_accounts.csv */; };
+		9F2151EA262C6C8000DC5A88 /* account_connections_maybe_bot_cluster_connected.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F2151BE262C6C8000DC5A88 /* account_connections_maybe_bot_cluster_connected.png */; };
+		9F2151EB262C6C8000DC5A88 /* account_connections_maybe_bot_chain.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F2151BF262C6C8000DC5A88 /* account_connections_maybe_bot_chain.png */; };
+		9F2151EC262C6C8000DC5A88 /* private-messages-transactions.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F2151C0262C6C8000DC5A88 /* private-messages-transactions.png */; };
+		9F2151ED262C6C8000DC5A88 /* account_connections_universe_center.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F2151C1262C6C8000DC5A88 /* account_connections_universe_center.png */; };
+		9F2151EE262C6C8000DC5A88 /* account_connections_maybe_bot_cluster_isolated.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F2151C2262C6C8000DC5A88 /* account_connections_maybe_bot_cluster_isolated.png */; };
+		9F2151EF262C6C8000DC5A88 /* account_connections_nodes.csv in Resources */ = {isa = PBXBuildFile; fileRef = 9F2151C3262C6C8000DC5A88 /* account_connections_nodes.csv */; };
+		9F2151F0262C6C8000DC5A88 /* BlockHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2151C6262C6C8000DC5A88 /* BlockHeader.swift */; };
+		9F2151F1262C6C8000DC5A88 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2151C7262C6C8000DC5A88 /* Block.swift */; };
+		9F2151F2262C6C8000DC5A88 /* TransactionOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2151C8262C6C8000DC5A88 /* TransactionOutput.swift */; };
+		9F2151F3262C6C8000DC5A88 /* TransactionInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2151C9262C6C8000DC5A88 /* TransactionInput.swift */; };
+		9F2151F4262C6C8000DC5A88 /* TransactionMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2151CA262C6C8000DC5A88 /* TransactionMetadata.swift */; };
+		9F2151F5262C6C8000DC5A88 /* PublicKeyMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2151CB262C6C8000DC5A88 /* PublicKeyMetadata.swift */; };
+		9F2151F6262C6C8000DC5A88 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2151CC262C6C8000DC5A88 /* Transaction.swift */; };
+		9F2151F7262C6C8000DC5A88 /* BitcoinExchangeMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2151CE262C6C8000DC5A88 /* BitcoinExchangeMetadata.swift */; };
+		9F2151F8262C6C8000DC5A88 /* CreatorCoinMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2151CF262C6C8000DC5A88 /* CreatorCoinMetadata.swift */; };
+		9F2151F9262C6C8000DC5A88 /* LikeMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2151D0262C6C8000DC5A88 /* LikeMetadata.swift */; };
+		9F2151FA262C6C8000DC5A88 /* BasicTransferMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2151D1262C6C8000DC5A88 /* BasicTransferMetadata.swift */; };
+		9F2151FB262C6C8000DC5A88 /* UpdateProfileMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2151D2262C6C8000DC5A88 /* UpdateProfileMetadata.swift */; };
+		9F2151FC262C6C8000DC5A88 /* SubmitPostMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2151D3262C6C8000DC5A88 /* SubmitPostMetadata.swift */; };
+		9F2151FD262C6C8000DC5A88 /* FollowMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2151D4262C6C8000DC5A88 /* FollowMetadata.swift */; };
+		9F2151FE262C6C8000DC5A88 /* PrivateMessageMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2151D5262C6C8000DC5A88 /* PrivateMessageMetadata.swift */; };
+		9F2151FF262C6C8000DC5A88 /* SwapIdentityMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2151D6262C6C8000DC5A88 /* SwapIdentityMetadata.swift */; };
+		9F215200262C6C8000DC5A88 /* Screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F2151D8262C6C8000DC5A88 /* Screenshot.png */; };
+		9F215201262C6C8000DC5A88 /* public_key_connections.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9F2151D9262C6C8000DC5A88 /* public_key_connections.gif */; };
+		9F79919F262204070000FB1E /* LudoClout in Frameworks */ = {isa = PBXBuildFile; productRef = 9F79919E262204070000FB1E /* LudoClout */; };
 		9F9808A226209A2300269A6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9808A126209A2300269A6B /* AppDelegate.swift */; };
 		9F9808A426209A2300269A6B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9808A326209A2300269A6B /* SceneDelegate.swift */; };
 		9F9808A626209A2300269A6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9808A526209A2300269A6B /* ViewController.swift */; };
@@ -18,16 +57,6 @@
 		9F9808BA2620B72F00269A6B /* DemoPrototypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9808B92620B72F00269A6B /* DemoPrototypeCell.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		9F15267B2620DEA700E4B453 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9F1526772620DEA700E4B453 /* LudoBitClout.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 9F15266B2620D9A500E4B453;
-			remoteInfo = LudoBitClout;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		9F1526822620DEDC00E4B453 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -35,7 +64,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				9F1526812620DEDC00E4B453 /* LudoBitClout.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -43,7 +71,46 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9F1526772620DEA700E4B453 /* LudoBitClout.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LudoBitClout.xcodeproj; path = Frameworks/Internal/BitClout/LudoBitClout.xcodeproj; sourceTree = "<group>"; };
+		9F2151AC262C6C8000DC5A88 /* NetworkClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		9F2151AD262C6C8000DC5A88 /* StateManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateManager.swift; sourceTree = "<group>"; };
+		9F2151AE262C6C8000DC5A88 /* QueryManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueryManager.swift; sourceTree = "<group>"; };
+		9F2151B0262C6C8000DC5A88 /* Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		9F2151B1262C6C8000DC5A88 /* Tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
+		9F2151B2262C6C8000DC5A88 /* StorageClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageClient.swift; sourceTree = "<group>"; };
+		9F2151B3262C6C8000DC5A88 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "../../../My Mac (MacBook-Pro.local)/Downloads/BitClout-main 2/README.md"; sourceTree = "<group>"; };
+		9F2151B4262C6C8000DC5A88 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = "../../../My Mac (MacBook-Pro.local)/Downloads/BitClout-main 2/LICENSE"; sourceTree = "<group>"; };
+		9F2151B6262C6C8000DC5A88 /* private-messages-transactions.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "private-messages-transactions.mov"; sourceTree = "<group>"; };
+		9F2151B7262C6C8000DC5A88 /* account_connections_universe_center_zoom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = account_connections_universe_center_zoom.png; sourceTree = "<group>"; };
+		9F2151B8262C6C8000DC5A88 /* bitcoinExchange_transactions_by_accounts.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bitcoinExchange_transactions_by_accounts.csv; sourceTree = "<group>"; };
+		9F2151B9262C6C8000DC5A88 /* account_connections_maybe_bot_cluster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = account_connections_maybe_bot_cluster.png; sourceTree = "<group>"; };
+		9F2151BA262C6C8000DC5A88 /* reserved-names-from-#0-to-#2500.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "reserved-names-from-#0-to-#2500.txt"; sourceTree = "<group>"; };
+		9F2151BB262C6C8000DC5A88 /* account_connections_edges.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = account_connections_edges.csv; sourceTree = "<group>"; };
+		9F2151BC262C6C8000DC5A88 /* message_transactions_nodes.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = message_transactions_nodes.csv; sourceTree = "<group>"; };
+		9F2151BD262C6C8000DC5A88 /* blockReward_transactions_by_accounts.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = blockReward_transactions_by_accounts.csv; sourceTree = "<group>"; };
+		9F2151BE262C6C8000DC5A88 /* account_connections_maybe_bot_cluster_connected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = account_connections_maybe_bot_cluster_connected.png; sourceTree = "<group>"; };
+		9F2151BF262C6C8000DC5A88 /* account_connections_maybe_bot_chain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = account_connections_maybe_bot_chain.png; sourceTree = "<group>"; };
+		9F2151C0262C6C8000DC5A88 /* private-messages-transactions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "private-messages-transactions.png"; sourceTree = "<group>"; };
+		9F2151C1262C6C8000DC5A88 /* account_connections_universe_center.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = account_connections_universe_center.png; sourceTree = "<group>"; };
+		9F2151C2262C6C8000DC5A88 /* account_connections_maybe_bot_cluster_isolated.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = account_connections_maybe_bot_cluster_isolated.png; sourceTree = "<group>"; };
+		9F2151C3262C6C8000DC5A88 /* account_connections_nodes.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = account_connections_nodes.csv; sourceTree = "<group>"; };
+		9F2151C6262C6C8000DC5A88 /* BlockHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockHeader.swift; sourceTree = "<group>"; };
+		9F2151C7262C6C8000DC5A88 /* Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
+		9F2151C8262C6C8000DC5A88 /* TransactionOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionOutput.swift; sourceTree = "<group>"; };
+		9F2151C9262C6C8000DC5A88 /* TransactionInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionInput.swift; sourceTree = "<group>"; };
+		9F2151CA262C6C8000DC5A88 /* TransactionMetadata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionMetadata.swift; sourceTree = "<group>"; };
+		9F2151CB262C6C8000DC5A88 /* PublicKeyMetadata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublicKeyMetadata.swift; sourceTree = "<group>"; };
+		9F2151CC262C6C8000DC5A88 /* Transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		9F2151CE262C6C8000DC5A88 /* BitcoinExchangeMetadata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitcoinExchangeMetadata.swift; sourceTree = "<group>"; };
+		9F2151CF262C6C8000DC5A88 /* CreatorCoinMetadata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatorCoinMetadata.swift; sourceTree = "<group>"; };
+		9F2151D0262C6C8000DC5A88 /* LikeMetadata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LikeMetadata.swift; sourceTree = "<group>"; };
+		9F2151D1262C6C8000DC5A88 /* BasicTransferMetadata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicTransferMetadata.swift; sourceTree = "<group>"; };
+		9F2151D2262C6C8000DC5A88 /* UpdateProfileMetadata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateProfileMetadata.swift; sourceTree = "<group>"; };
+		9F2151D3262C6C8000DC5A88 /* SubmitPostMetadata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubmitPostMetadata.swift; sourceTree = "<group>"; };
+		9F2151D4262C6C8000DC5A88 /* FollowMetadata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowMetadata.swift; sourceTree = "<group>"; };
+		9F2151D5262C6C8000DC5A88 /* PrivateMessageMetadata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivateMessageMetadata.swift; sourceTree = "<group>"; };
+		9F2151D6262C6C8000DC5A88 /* SwapIdentityMetadata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwapIdentityMetadata.swift; sourceTree = "<group>"; };
+		9F2151D8262C6C8000DC5A88 /* Screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot.png; sourceTree = "<group>"; };
+		9F2151D9262C6C8000DC5A88 /* public_key_connections.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = public_key_connections.gif; sourceTree = "<group>"; };
 		9F98089E26209A2300269A6B /* robinclout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = robinclout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F9808A126209A2300269A6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F9808A326209A2300269A6B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,21 +127,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F1526802620DEDC00E4B453 /* LudoBitClout.framework in Frameworks */,
+				9F79919F262204070000FB1E /* LudoClout in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9F1526782620DEA700E4B453 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				9F15267C2620DEA700E4B453 /* LudoBitClout.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		9F15267F2620DEDC00E4B453 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -82,10 +141,103 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		9F2151AB262C6C8000DC5A88 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				9F2151AC262C6C8000DC5A88 /* NetworkClient.swift */,
+				9F2151AD262C6C8000DC5A88 /* StateManager.swift */,
+				9F2151AE262C6C8000DC5A88 /* QueryManager.swift */,
+				9F2151AF262C6C8000DC5A88 /* InternalDataModel */,
+				9F2151B1262C6C8000DC5A88 /* Tools.swift */,
+				9F2151B2262C6C8000DC5A88 /* StorageClient.swift */,
+			);
+			name = Shared;
+			path = "../../../My Mac (MacBook-Pro.local)/Downloads/BitClout-main 2/Shared";
+			sourceTree = "<group>";
+		};
+		9F2151AF262C6C8000DC5A88 /* InternalDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				9F2151B0262C6C8000DC5A88 /* Account.swift */,
+			);
+			path = InternalDataModel;
+			sourceTree = "<group>";
+		};
+		9F2151B5262C6C8000DC5A88 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				9F2151B6262C6C8000DC5A88 /* private-messages-transactions.mov */,
+				9F2151B7262C6C8000DC5A88 /* account_connections_universe_center_zoom.png */,
+				9F2151B8262C6C8000DC5A88 /* bitcoinExchange_transactions_by_accounts.csv */,
+				9F2151B9262C6C8000DC5A88 /* account_connections_maybe_bot_cluster.png */,
+				9F2151BA262C6C8000DC5A88 /* reserved-names-from-#0-to-#2500.txt */,
+				9F2151BB262C6C8000DC5A88 /* account_connections_edges.csv */,
+				9F2151BC262C6C8000DC5A88 /* message_transactions_nodes.csv */,
+				9F2151BD262C6C8000DC5A88 /* blockReward_transactions_by_accounts.csv */,
+				9F2151BE262C6C8000DC5A88 /* account_connections_maybe_bot_cluster_connected.png */,
+				9F2151BF262C6C8000DC5A88 /* account_connections_maybe_bot_chain.png */,
+				9F2151C0262C6C8000DC5A88 /* private-messages-transactions.png */,
+				9F2151C1262C6C8000DC5A88 /* account_connections_universe_center.png */,
+				9F2151C2262C6C8000DC5A88 /* account_connections_maybe_bot_cluster_isolated.png */,
+				9F2151C3262C6C8000DC5A88 /* account_connections_nodes.csv */,
+			);
+			name = Analytics;
+			path = "../../../My Mac (MacBook-Pro.local)/Downloads/BitClout-main 2/Analytics";
+			sourceTree = "<group>";
+		};
+		9F2151C4262C6C8000DC5A88 /* Blockchain */ = {
+			isa = PBXGroup;
+			children = (
+				9F2151C5262C6C8000DC5A88 /* DataModel */,
+			);
+			name = Blockchain;
+			path = "../../../My Mac (MacBook-Pro.local)/Downloads/BitClout-main 2/Blockchain";
+			sourceTree = "<group>";
+		};
+		9F2151C5262C6C8000DC5A88 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				9F2151C6262C6C8000DC5A88 /* BlockHeader.swift */,
+				9F2151C7262C6C8000DC5A88 /* Block.swift */,
+				9F2151C8262C6C8000DC5A88 /* TransactionOutput.swift */,
+				9F2151C9262C6C8000DC5A88 /* TransactionInput.swift */,
+				9F2151CA262C6C8000DC5A88 /* TransactionMetadata.swift */,
+				9F2151CB262C6C8000DC5A88 /* PublicKeyMetadata.swift */,
+				9F2151CC262C6C8000DC5A88 /* Transaction.swift */,
+				9F2151CD262C6C8000DC5A88 /* Metadata */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		9F2151CD262C6C8000DC5A88 /* Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				9F2151CE262C6C8000DC5A88 /* BitcoinExchangeMetadata.swift */,
+				9F2151CF262C6C8000DC5A88 /* CreatorCoinMetadata.swift */,
+				9F2151D0262C6C8000DC5A88 /* LikeMetadata.swift */,
+				9F2151D1262C6C8000DC5A88 /* BasicTransferMetadata.swift */,
+				9F2151D2262C6C8000DC5A88 /* UpdateProfileMetadata.swift */,
+				9F2151D3262C6C8000DC5A88 /* SubmitPostMetadata.swift */,
+				9F2151D4262C6C8000DC5A88 /* FollowMetadata.swift */,
+				9F2151D5262C6C8000DC5A88 /* PrivateMessageMetadata.swift */,
+				9F2151D6262C6C8000DC5A88 /* SwapIdentityMetadata.swift */,
+			);
+			path = Metadata;
+			sourceTree = "<group>";
+		};
+		9F2151D7262C6C8000DC5A88 /* Docs */ = {
+			isa = PBXGroup;
+			children = (
+				9F2151D8262C6C8000DC5A88 /* Screenshot.png */,
+				9F2151D9262C6C8000DC5A88 /* public_key_connections.gif */,
+			);
+			name = Docs;
+			path = "../../../My Mac (MacBook-Pro.local)/Downloads/BitClout-main 2/Docs";
+			sourceTree = "<group>";
+		};
 		9F98089526209A2300269A6B = {
 			isa = PBXGroup;
 			children = (
-				9F1526772620DEA700E4B453 /* LudoBitClout.xcodeproj */,
 				9F9808A026209A2300269A6B /* robinclout */,
 				9F98089F26209A2300269A6B /* Products */,
 				9F15267F2620DEDC00E4B453 /* Frameworks */,
@@ -103,6 +255,12 @@
 		9F9808A026209A2300269A6B /* robinclout */ = {
 			isa = PBXGroup;
 			children = (
+				9F2151B5262C6C8000DC5A88 /* Analytics */,
+				9F2151C4262C6C8000DC5A88 /* Blockchain */,
+				9F2151D7262C6C8000DC5A88 /* Docs */,
+				9F2151B4262C6C8000DC5A88 /* LICENSE */,
+				9F2151B3262C6C8000DC5A88 /* README.md */,
+				9F2151AB262C6C8000DC5A88 /* Shared */,
 				9F9808A126209A2300269A6B /* AppDelegate.swift */,
 				9F9808A326209A2300269A6B /* SceneDelegate.swift */,
 				9F9808A526209A2300269A6B /* ViewController.swift */,
@@ -132,6 +290,9 @@
 			dependencies = (
 			);
 			name = robinclout;
+			packageProductDependencies = (
+				9F79919E262204070000FB1E /* LudoClout */,
+			);
 			productName = robinclout;
 			productReference = 9F98089E26209A2300269A6B /* robinclout.app */;
 			productType = "com.apple.product-type.application";
@@ -159,14 +320,11 @@
 				Base,
 			);
 			mainGroup = 9F98089526209A2300269A6B;
+			packageReferences = (
+				9F79919D262204070000FB1E /* XCRemoteSwiftPackageReference "ludoclout" */,
+			);
 			productRefGroup = 9F98089F26209A2300269A6B /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 9F1526782620DEA700E4B453 /* Products */;
-					ProjectRef = 9F1526772620DEA700E4B453 /* LudoBitClout.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				9F98089D26209A2300269A6B /* robinclout */,
@@ -174,24 +332,32 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		9F15267C2620DEA700E4B453 /* LudoBitClout.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = LudoBitClout.framework;
-			remoteRef = 9F15267B2620DEA700E4B453 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
 		9F98089C26209A2300269A6B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F2151EF262C6C8000DC5A88 /* account_connections_nodes.csv in Resources */,
+				9F2151ED262C6C8000DC5A88 /* account_connections_universe_center.png in Resources */,
 				9F9808AE26209A2300269A6B /* LaunchScreen.storyboard in Resources */,
+				9F215201262C6C8000DC5A88 /* public_key_connections.gif in Resources */,
+				9F2151E8262C6C8000DC5A88 /* message_transactions_nodes.csv in Resources */,
+				9F2151E2262C6C8000DC5A88 /* private-messages-transactions.mov in Resources */,
+				9F2151E6262C6C8000DC5A88 /* reserved-names-from-#0-to-#2500.txt in Resources */,
+				9F2151E4262C6C8000DC5A88 /* bitcoinExchange_transactions_by_accounts.csv in Resources */,
+				9F2151EE262C6C8000DC5A88 /* account_connections_maybe_bot_cluster_isolated.png in Resources */,
+				9F2151E9262C6C8000DC5A88 /* blockReward_transactions_by_accounts.csv in Resources */,
 				9F9808AB26209A2300269A6B /* Assets.xcassets in Resources */,
+				9F2151E0262C6C8000DC5A88 /* README.md in Resources */,
+				9F2151E7262C6C8000DC5A88 /* account_connections_edges.csv in Resources */,
+				9F2151E5262C6C8000DC5A88 /* account_connections_maybe_bot_cluster.png in Resources */,
 				9F9808A926209A2300269A6B /* Main.storyboard in Resources */,
+				9F2151EB262C6C8000DC5A88 /* account_connections_maybe_bot_chain.png in Resources */,
+				9F2151E1262C6C8000DC5A88 /* LICENSE in Resources */,
+				9F2151E3262C6C8000DC5A88 /* account_connections_universe_center_zoom.png in Resources */,
+				9F2151EC262C6C8000DC5A88 /* private-messages-transactions.png in Resources */,
+				9F2151EA262C6C8000DC5A88 /* account_connections_maybe_bot_cluster_connected.png in Resources */,
+				9F215200262C6C8000DC5A88 /* Screenshot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,10 +368,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F2151DC262C6C8000DC5A88 /* QueryManager.swift in Sources */,
 				9F9808A626209A2300269A6B /* ViewController.swift in Sources */,
+				9F2151F7262C6C8000DC5A88 /* BitcoinExchangeMetadata.swift in Sources */,
+				9F2151DA262C6C8000DC5A88 /* NetworkClient.swift in Sources */,
+				9F2151F3262C6C8000DC5A88 /* TransactionInput.swift in Sources */,
+				9F2151FF262C6C8000DC5A88 /* SwapIdentityMetadata.swift in Sources */,
+				9F2151FA262C6C8000DC5A88 /* BasicTransferMetadata.swift in Sources */,
 				9F9808BA2620B72F00269A6B /* DemoPrototypeCell.swift in Sources */,
+				9F2151FB262C6C8000DC5A88 /* UpdateProfileMetadata.swift in Sources */,
+				9F2151F2262C6C8000DC5A88 /* TransactionOutput.swift in Sources */,
+				9F2151F6262C6C8000DC5A88 /* Transaction.swift in Sources */,
+				9F2151DF262C6C8000DC5A88 /* StorageClient.swift in Sources */,
+				9F2151FD262C6C8000DC5A88 /* FollowMetadata.swift in Sources */,
+				9F2151F8262C6C8000DC5A88 /* CreatorCoinMetadata.swift in Sources */,
+				9F2151F0262C6C8000DC5A88 /* BlockHeader.swift in Sources */,
+				9F2151DB262C6C8000DC5A88 /* StateManager.swift in Sources */,
+				9F2151DD262C6C8000DC5A88 /* Account.swift in Sources */,
+				9F2151DE262C6C8000DC5A88 /* Tools.swift in Sources */,
+				9F2151F5262C6C8000DC5A88 /* PublicKeyMetadata.swift in Sources */,
+				9F2151F1262C6C8000DC5A88 /* Block.swift in Sources */,
+				9F2151F4262C6C8000DC5A88 /* TransactionMetadata.swift in Sources */,
 				9F9808A226209A2300269A6B /* AppDelegate.swift in Sources */,
+				9F2151FC262C6C8000DC5A88 /* SubmitPostMetadata.swift in Sources */,
 				9F9808A426209A2300269A6B /* SceneDelegate.swift in Sources */,
+				9F2151FE262C6C8000DC5A88 /* PrivateMessageMetadata.swift in Sources */,
+				9F2151F9262C6C8000DC5A88 /* LikeMetadata.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +593,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9F79919D262204070000FB1E /* XCRemoteSwiftPackageReference "ludoclout" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hellyeah/ludoclout.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9F79919E262204070000FB1E /* LudoClout */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F79919D262204070000FB1E /* XCRemoteSwiftPackageReference "ludoclout" */;
+			productName = LudoClout;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9F98089626209A2300269A6B /* Project object */;
 }

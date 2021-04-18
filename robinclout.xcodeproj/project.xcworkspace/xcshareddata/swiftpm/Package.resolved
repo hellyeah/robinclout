@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "LudoClout",
+        "repositoryURL": "https://github.com/hellyeah/ludoclout.git",
+        "state": {
+          "branch": null,
+          "revision": "5db9a2f99a6b295ce03c08690db6218cf04af74e",
+          "version": "0.1.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
